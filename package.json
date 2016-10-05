@@ -1,0 +1,17 @@
+{
+  "name": "dev-dependency-bug",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "^0.2.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-plugin-transform-class-properties": "^6.9.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.8.0",
+    "babel-runtime": "^6.11.6",
+    "babel-preset-meteor": "^6.9.1"
+  }
+}
